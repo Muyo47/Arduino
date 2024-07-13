@@ -1,0 +1,22 @@
+{
+  "name": "MotorDriver",
+  "version": "0.0",
+  "keywords": "Driver, begin, moveForward, softStop, hardStop",
+  "description": "Motor driver tb6612fng type library",
+  "repository":
+  {
+    "type": "",
+    "url": ""
+  },
+  "authors":
+  [
+    {
+        "name": "Muyo47",
+        "email": "diegomuyo@gmail.com",
+        "maintainer": true
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "headers": "MotorDriver.h"
+}
