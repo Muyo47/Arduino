@@ -43,7 +43,7 @@ void Driver::moveForward(int direction, float speed) {
         analogWrite(_PWMAPin, speed);
     }
 
-    if (direction != CLOCKWISE && direction != COUNTERCLOCKWISE){
+    if (direction != CLOCKWISE || direction != COUNTERCLOCKWISE){
         Serial.println("Wrong direction request, autoselection of clockwise direction");
 
         digitalWrite(_stbyPin, 1);
