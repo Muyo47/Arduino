@@ -1,0 +1,2 @@
+Library for tb6612fng motor driver, with 1 and 2 motor options. Check out the given examples to understand the library.
+Some functions are yet to be implemented (for two motors, such as advanceLineal and spin, but those functions will be implemented in next versions)
