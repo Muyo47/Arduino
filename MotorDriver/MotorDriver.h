@@ -1,4 +1,4 @@
-/* Library for the TB6612FNG. Includes options for 1 motor */
+/* Library for the TB6612FNG. Include options for 1 motor */
 
 
 #ifndef MotorDriver_H
