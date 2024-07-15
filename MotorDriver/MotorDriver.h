@@ -19,6 +19,8 @@ public:
     void moveForward (int motor, int direction, float speed); // Methods
     void softStop (int motor);          // Soft stop only stop one motor while letting the second motor mantain the state
     void hardStop ();                   // Hard stop sets standby pin on 0, stopping both motors
+    void moveLineal (int speed);        // Linear movement for 2 motors. Negative speed means moving backwards. Positive speed means moving forward
+    void spin (int speed, int direction);    // Spin for two motors. Direction = 0 for left, direction = 1 for right
 #else
     Driver (int stbypin, int a0pin, int a1pin, int pwmApin); // Constructor
     void begin (); // Initialization
