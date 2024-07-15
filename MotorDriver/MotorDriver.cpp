@@ -225,6 +225,50 @@ void Driver::hardStop() {
         analogWrite(_PWMBPin, 0);
 }
 
+void Driver::moveLineal(int speed) {
+        if (speed < 0) {
+
+            speed = -speed;
+            digitalWrite(_stbyPin, 1);
+
+            digitalWrite(_a1Pin, 1);
+            digitalWrite(_a0Pin, 0);
+            analogWrite(_PWMAPin, speed);
+            digitalWrite(_b1Pin, 1);
+            digitalWrite(_b0Pin, 0);
+            analogWrite(_PWMBPin, speed);
+        }
+
+    if (speed > 0) {
+        digitalWrite(_stbyPin, 1);
+
+        digitalWrite(_a1Pin, 0);
+        digitalWrite(_a0Pin, 1);
+        analogWrite(_PWMAPin, speed);
+        digitalWrite(_b1Pin, 0);
+        digitalWrite(_b0Pin, 1);
+        analogWrite(_PWMBPin, speed);
+    }
+
+    if (speed > 255 || speed < -255) {
+        serial.Println("Speed value is not admitted. Setting speed to 0");
+        digitalWrite(_stbyPin, 1);
+
+        digitalWrite(_a1Pin, 0);
+        digitalWrite(_a0Pin, 1);
+        analogWrite(_PWMAPin, 0);
+        digitalWrite(_b1Pin, 0);
+        digitalWrite(_b0Pin, 1);
+        analogWrite(_PWMBPin, 0);
+    }
+}
+
+void Driver::spin(int speed, int direction) {
+if (speed =< 255) {
+
+}
+}
+
 #else
 
 void Driver::softStop() {
