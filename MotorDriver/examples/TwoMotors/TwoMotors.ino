@@ -1,6 +1,6 @@
 /* Library for tb6612fng DC motor driver. Follow the conexions given in the example. Make sure
 to give power to the motor with an external power source (the amount of current a DC motor can draw
-overcomes the max current an esp32 can give)
+overcome the max current an esp32 can give)
 
 This example is for two motors.
 
