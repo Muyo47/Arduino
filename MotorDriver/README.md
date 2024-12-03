@@ -1,2 +1,3 @@
-Library for tb6612fng motor driver, with 1 and 2 motor options. Check out the given examples to understand the library.
-All required functions are correcly working, as tested in an ESP32 WROOM32 with random DC motor.
+# tb6612fng motor driver
+Library that supports **tb6612fng** motor driver. 
+Check out the given examples to understand how library works.
