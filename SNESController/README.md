@@ -9,7 +9,10 @@ If you change the pinout, make sure the I/O **data** pin **can _read_**, explore
 | SNESController | LatchPin, ClockPin, DataPin | Instance and give Pinout |
 | Begin | -- | Init |
 | readData | int </yourVariableName/>[16] | Write into the variable the buttons state |
-
+<brr>
+<brr>
+<brr>
+<brr>
 
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="https://consolemods.org/wiki/images/1/16/SNES_Controller_Female.svg">
