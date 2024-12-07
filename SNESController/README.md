@@ -1,0 +1,1 @@
+Library for the SNES controller. Make sure data pin is able to read (avoid write-only pin)

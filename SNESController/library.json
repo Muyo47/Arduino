@@ -1,0 +1,22 @@
+{
+  "name": "SNESController",
+  "version": "1.0",
+  "keywords": "SNESController, begin, readData",
+  "description": "Library to use a SNES gamepad",
+  "repository":
+  {
+    "type": "",
+    "url": ""
+  },
+  "authors":
+  [
+    {
+        "name": "Muyo47",
+        "email": "...",
+        "maintainer": true
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "headers": "SNESController.h"
+}
