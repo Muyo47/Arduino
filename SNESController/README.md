@@ -12,9 +12,9 @@ If you change the pinout, make sure the I/O **data** pin **can _read_**, explore
 
 
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://consolemods.org/wiki/SNES:Connector_Pinouts#/media/File:SNES_Controller_Female.svg">
- <source media="(prefers-color-scheme: light)" srcset="https://consolemods.org/wiki/SNES:Connector_Pinouts#/media/File:SNES_Controller_Female.svg">
- <img alt="SNES CONTROLLER PINOUT" src="https://consolemods.org/wiki/SNES:Connector_Pinouts#/media/File:SNES_Controller_Female.svg">
+ <source media="(prefers-color-scheme: dark)" srcset="https://consolemods.org/wiki/images/1/16/SNES_Controller_Female.svg">
+ <source media="(prefers-color-scheme: light)" srcset="https://consolemods.org/wiki/images/1/16/SNES_Controller_Female.svg">
+ <img alt="SNES CONTROLLER PINOUT" src="https://consolemods.org/wiki/images/1/16/SNES_Controller_Female.svg">
 </picture>
 
 | Pin | Name |
