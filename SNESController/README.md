@@ -8,4 +8,4 @@ If you change the pinout, make sure the I/O **data** pin **can _read_**, explore
 |-----:|-----------|-----------|
 | SNESController | LatchPin, ClockPin, DataPin | Instance and give Pinout |
 | Begin | -- | Init |
-| readData | int <yourVariableName>[16] | Write into the variable the buttons state |
+| readData | int </yourVariableName/>[16] | Write into the variable the buttons state |
