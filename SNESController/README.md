@@ -1,9 +1,9 @@
 ## SNES CONTROLLER
 
 Library for the **SNES controller**. 
-To understand how library works, check out the given example.
-The button possition into the array is commented in the example code. readData function **only read once**.
-If you change the pinout, make sure the I/O **data** pin **can _read_**, explore pinout of you development board.
+To understand how library works, check out the example provided.
+The button possition into the array is commented in the example code. readData function **reads only once**.
+If you change the pinout, make sure the I/O **data** pin **can _read_**, refer to your development board's pinout.
 | Function | Param | Description |
 |-----:|-----------|-----------|
 | SNESController | LatchPin, ClockPin, DataPin | Instance and give Pinout |
