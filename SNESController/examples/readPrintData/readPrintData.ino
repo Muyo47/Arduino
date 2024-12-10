@@ -14,7 +14,7 @@ SNESController snesController(LATCH_PIN, CLOCK_PIN, DATA_PIN);
 void setup() {
     Serial.begin(115200); 
     snesController.begin(); // Init controller
-    Serial.print("If button state '1' button is NOT pressed\n");
+    Serial.print("If button state '1' button is pressed\n");
 }
 
 void loop() {
