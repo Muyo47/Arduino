@@ -115,6 +115,6 @@ void SNESController::readData(uint8_t data[16]) {
     
 
     for (int i = 0; i < 16; i++) {
-        data[i] = buttons[i]; // Copy the button states to the provided array
+        data[i] = !buttons[i]; // Copy the button states to the provided array
     }
 }
