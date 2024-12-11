@@ -30,7 +30,7 @@ void setup() {
 void loop() {
   driver.spinMotor(CLOCKWISE, 200);   // 1 for clockwise, 0 for counterclockwise. Speed can reach up to 255
   delay(2000);
-  driver.stop();
+  driver.singleStop();
   delay(2000);
   driver.spinMotor(COUNTERCLOCKWISE, 100);
   delay(2000);
