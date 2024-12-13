@@ -57,7 +57,7 @@ void loop() {
   delay(2000);
   driver.fullStop();
   delay(2000);
-  driver.move(FORWARD, 210)
+  driver.move(FORWARD, 210);
   delay(2000);
 }
       // Highly recommended using fullStop (or singleStop) between movement transitions
