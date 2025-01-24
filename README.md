@@ -1,3 +1,3 @@
-# esp32-arduino_framework
+# ESP32-arduino_framework
 
-Most of the code uploaded in this repository consist of templates/examples & basic c - c++
+Librerías de diferentes sensores/actuadores para ESP32 en el IDE de Arduino
